@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
     params={{
       "particles": {
         "number": {
-          "value": 118,
+          "value": 140,
           "density": {
             "enable": true,
             "value_area": 868.0624057955
@@ -73,7 +73,7 @@ const Header = ({ siteTitle }) => (
         },
         "move": {
           "enable": true,
-          "speed": 6,
+          "speed": 5,
           "direction": "none",
           "random": false,
           "straight": false,
@@ -94,7 +94,7 @@ const Header = ({ siteTitle }) => (
             "mode": "grab"
           },
           "onclick": {
-            "enable": true,
+            "enable": false,
             "mode": "push"
           },
           "resize": true
@@ -128,7 +128,9 @@ const Header = ({ siteTitle }) => (
       "retina_detect": true
     }}
     style={{"backgroundColor":"#252527"}}
-  />
+  >
+  <topMenu/>
+  </Particles>
 );
 
 export default Header;

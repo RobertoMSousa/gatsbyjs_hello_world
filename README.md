@@ -47,7 +47,7 @@ Navigate to `http://localhost:8000`
 | `deploy`                  |  Deploy the app into production                                                                   |
 | `clean`                   |  Clean temporary files                                                                            |
 | `format`                  |  Prettify the code for production                                                                 |
-| `test`                    |                                                                                                   |
+| `test`                    |  Run tests                                                                                        |
 
 ## Testing
 

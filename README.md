@@ -24,10 +24,12 @@ There are a couple of tests on this page like the usage of styles components and
 Roberto Sousa
 
 ## Requirements
+
 - Install [Node.js](https://nodejs.org/en/)
 - Install [VS Code](https://code.visualstudio.com/)
 
 ## Installation
+
 - Install dependencies
 ```
     yarn
@@ -40,6 +42,7 @@ Roberto Sousa
 Navigate to `http://localhost:8000`
 
 ##Build
+  
 |        Yarn Script        |                                           Description                                             |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
 | `build`                   |  Build the environment for production                                                             |
